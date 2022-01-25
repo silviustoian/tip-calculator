@@ -1,33 +1,72 @@
-body{
-    background-color: hsl(185deg 48% 75%);
-    font-family: "Space Mono", monospace;
-    font-size: 24px;
-    width: 65%;
-    margin: auto;
+body {
+  background-color: hsl(185deg 48% 75%);
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  width: 65%;
+  margin: auto;
 }
 
 .splitter {
-    text-align: center;
-    margin-top: 5rem;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .flx_container {
-    margin-top: 3rem;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-    border-radius:30px;
-    padding:2rem;
+  margin-top: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  border-radius: 30px;
+  padding: 2rem;
 }
 
 .data_container {
-    flex:0.5;
+  flex: 0.5;
 }
 
 .result_container {
-    flex:0.5;
-    background-color: #00474B;
-    color: #FFFFFF;
+  flex: 0.5;
+  background-color: #00474b;
+  color: #ffffff;
 }
+
+.data_container p {
+  font-size: 14px;
+  color: #5e7a7d;
+}
+
+.data_input {
+  position: relative;
+}
+
+.data_container input {
+  width: 98%;
+  text-align: right;
+  padding: 6px;
+  background-color: #f3f9fa;
+  color: #00474b;
+  border: none;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Space Mono", monospace;
+}
+
+.bill_svg {
+  position: absolute;
+  top: 14px;
+  left: 7px;
+}
+
+.people_svg {
+  position: absolute;
+  top: 14px;
+  left: 7px;
+}
+
+.data_percent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+

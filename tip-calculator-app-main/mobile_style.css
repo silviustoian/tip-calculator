@@ -1,23 +1,55 @@
-body{
-    background-color: hsl(185deg 48% 75%);
-    font-family: "Space Mono", monospace;
-    font-size: 24px;
+body {
+  background-color: hsl(185deg 48% 75%);
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
 }
 
 .splitter {
-    text-align: center;
-    margin-top: 5rem;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .flx_container {
-    margin-top: 3rem;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 3rem;
-    border-radius:30px;
-    padding:2rem;
-    flex-flow: column;
+  margin-top: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3rem;
+  border-radius: 30px;
+  padding: 2rem;
+  flex-flow: column;
 }
 
+.data_container p {
+  font-size: 14px;
+  columns: #5e7a7d;
+}
+
+.data_input {
+  position: relative;
+}
+
+.data_container input {
+  width: 98%;
+  text-align: right;
+  padding: 6px;
+  background-color: #f3f9fa;
+  color: #00474b;
+  border: none;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Space Mono", monospace;
+}
+
+.bill_svg {
+  position: absolute;
+  top: 14px;
+  left: 7px;
+}
+
+.people_svg {
+  position: absolute;
+  top: 14px;
+  left: 7px;
+}
