@@ -1,0 +1,23 @@
+body{
+    background-color: hsl(185deg 48% 75%);
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+}
+
+.splitter {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.flx_container {
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3rem;
+    border-radius:30px;
+    padding:2rem;
+    flex-flow: column;
+}
+

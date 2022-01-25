@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(185deg 48% 75%);
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    width: 65%;
+    margin: auto;
+}
+
+.splitter {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.flx_container {
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    border-radius:30px;
+    padding:2rem;
+}
+
+.data_container {
+    flex:0.5;
+}
+
+.result_container {
+    flex:0.5;
+    background-color: #00474B;
+    color: #FFFFFF;
+}
