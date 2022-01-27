@@ -76,11 +76,11 @@
           </div>
           <p>Select Tip %</p>
           <div class="data_percent">
-            <div id="5per">5%</div>
-            <div id="10per">10%</div>
-            <div id="15per">15%</div>
-            <div id="25per">25%</div>
-            <div id="50per">50%</div>
+            <div id="5per" value="5">5%</div>
+            <div id="10per" value="10">10%</div>
+            <div id="15per" value="15">15%</div>
+            <div id="25per" value="25">25%</div>
+            <div id="50per" value="50">50%</div>
             <div id="customper">
               <input type="number" placeholder="Custom" id="inpcustom" />
             </div>
@@ -106,8 +106,10 @@
         <div class="result_container">
           <div class="tip_amount">
             <div>
-              <p style="font-size: 14px;">Tip Amount</p>
-              <p style="font-size: 14px; color: hsl(186, 14%, 43%);;">/person</p>
+              <p style="font-size: 14px">Tip Amount</p>
+              <p style="font-size: 14px; color: hsl(186, 14%, 43%) ;">
+                /person
+              </p>
             </div>
 
             <h1 id="tip">$0.00</h1>
@@ -115,16 +117,19 @@
 
           <div class="total_amount">
             <div>
-              <p style="font-size: 14px;">Total</p>
-              <p style="font-size: 14px; color: hsl(186, 14%, 43%);;">/ person</p>
+              <p style="font-size: 14px">Total</p>
+              <p style="font-size: 14px; color: hsl(186, 14%, 43%) ;">
+                / person
+              </p>
             </div>
 
             <h1 id="total">$0.00</h1>
           </div>
-
-            Reset
+          <button onclick="reset()" id="reset_button">Reset</button>
+          
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
