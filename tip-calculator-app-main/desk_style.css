@@ -6,6 +6,12 @@ body {
   margin: auto;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .splitter {
   text-align: center;
   margin-top: 5rem;
@@ -30,6 +36,8 @@ body {
   flex: 0.5;
   background-color: #00474b;
   color: #ffffff;
+  padding: 2.9rem 2rem 3.7rem 2rem;
+  border-radius: 20px;
 }
 
 .data_container p {
@@ -53,6 +61,16 @@ body {
   font-family: "Space Mono", monospace;
 }
 
+.data_container input:hover {
+  outline: 2px solid hsl(172, 67%, 45%);
+  cursor: pointer;
+}
+
+.data_container input:focus {
+  outline: 2px solid hsl(172, 67%, 45%);
+  cursor: pointer;
+}
+
 .bill_svg {
   position: absolute;
   top: 14px;
@@ -66,7 +84,54 @@ body {
 }
 
 .data_percent {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 }
+
+.data_percent div {
+  background-color: #00474b;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  line-height: 35.54px;
+  padding: 3px 0.5rem;
+  border-radius: 5px;
+}
+
+#customper {
+  background-color: #f3f9fa;
+  color: #547878;
+}
+
+.data_percent div:hover {
+  background-color: hsl(172, 67%, 45%);
+  cursor: pointer;
+}
+
+#inpcustom::placeholder {
+  color: #547878;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+}
+
+#inpcustom {
+  padding: 0;
+}
+
+.tip_amount,
+.total_amount {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#tip,
+#total {
+  font-size: 2.15rem;
+  color: #26c2ae;
+}
+
 

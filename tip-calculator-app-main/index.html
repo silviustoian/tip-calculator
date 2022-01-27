@@ -81,7 +81,9 @@
             <div id="15per">15%</div>
             <div id="25per">25%</div>
             <div id="50per">50%</div>
-            <div id="customper">Custom</div>
+            <div id="customper">
+              <input type="number" placeholder="Custom" id="inpcustom" />
+            </div>
           </div>
 
           <p>Number of People</p>
@@ -102,7 +104,25 @@
         </div>
 
         <div class="result_container">
-          Tip Amount / person Total / person Reset
+          <div class="tip_amount">
+            <div>
+              <p style="font-size: 14px;">Tip Amount</p>
+              <p style="font-size: 14px; color: hsl(186, 14%, 43%);;">/person</p>
+            </div>
+
+            <h1 id="tip">$0.00</h1>
+          </div>
+
+          <div class="total_amount">
+            <div>
+              <p style="font-size: 14px;">Total</p>
+              <p style="font-size: 14px; color: hsl(186, 14%, 43%);;">/ person</p>
+            </div>
+
+            <h1 id="total">$0.00</h1>
+          </div>
+
+            Reset
         </div>
       </div>
     </div>
